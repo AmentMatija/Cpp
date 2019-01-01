@@ -50,7 +50,7 @@ int main()
 				}									
 			}										
 
-			if ((unosX >= 1) && (unosX <= 9) && (!uneseno))			//unos su brojevi 1-9 koji ne postoje
+			if ((unosX >= 1) && (unosX <= 9) && (!uneseno))			//unos su slobodna polja 1-9
 			{
 				playerCnt++;
 				turnCnt++;
@@ -149,7 +149,7 @@ int main()
 		system("cls");				// clean screen
 		ispis(ispisniNiz);			// generiranje tablice iz niza "ispisniNiz"
 		
-		if (turnCnt > 8) { break; }		//break ako je broj turnova veci od 8, a win je i dalje false, break
+		if (turnCnt > 8) { break; }		//break ako je broj turnova veci od 8, a win je i dalje false
 	}
 	
 	if (w_message==true)
