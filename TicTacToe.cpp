@@ -1,4 +1,4 @@
-﻿//autor:ament matija
+﻿				//autor:ament matija
 #include "pch.h"
 #include <iostream>
 #include <iomanip>
